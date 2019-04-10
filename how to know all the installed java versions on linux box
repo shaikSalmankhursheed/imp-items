@@ -1,0 +1,1 @@
+for f in $(locate -ber '^java$'); do test -x && echo "$f"; done
